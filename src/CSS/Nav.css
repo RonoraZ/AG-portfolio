@@ -49,7 +49,7 @@
     
 }  */
 
-.nav::after{ 
+/* .nav::after{ 
     content: "";  
     position: absolute;
     top:0; 
@@ -62,7 +62,7 @@
     opacity: 0;
     transition: opacity 100ms linear;  
 
-}
+} */
 
 .nav :hover,.nav :focus{  
     color: var(--black); 
