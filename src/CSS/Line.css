@@ -1,0 +1,48 @@
+.Line-container{ 
+   
+    margin:  50px auto 50px;
+}
+
+.Line-container{ 
+    width: 100%; 
+    height: 45px; 
+    position: relative;
+}
+
+.Line-container::after,.Line-container::before{ 
+    content: ''; 
+    position: absolute; 
+    margin: auto; 
+    height: 2px;
+    background: var(--white); 
+    width: 42%; 
+    top: 45%;
+} 
+
+.Line-container::after{ 
+left: 0;
+}
+
+.Line-container::before{ 
+right: 0;
+}
+
+.Line-container .shape {
+    height: 40px; 
+    width:40px; 
+    border: 2px solid var(--white); 
+    left: 0; 
+    right: 0; 
+    top:0; 
+    bottom: 0; 
+    margin: auto;
+}
+
+.Line-container .circle{ 
+
+border-radius: 50%;
+} 
+
+.Line-container .diamond {
+    transform: rotate(45deg);
+}

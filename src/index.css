@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{ 
+  --black:#000000;
+  --antiquewhite:#FAEBD7; 
+  --white:#FFFFFF; 
+  --red-salsa:#FD3A4A; 
+  --bannana-mania:#FBE7B2; 
+  --atomic-tangerine:#FF9966; 
+  --melon:#FEBAAD; 
+  --gradient:linear-gradient( 
+      45deg, 
+      #845ec2,
+      #d65db1, 
+      #ff6f91, 
+      #ff9671, 
+      #ffc75f, 
+      #f9f871 
+
+  ); 
+  --navy-blue:#1c1b29; 
+  --blue:#04b0ee;
+
+}
+
+.App{ 
+  background-color: var(--black); 
+  background-image: var(--gradient); 
+  background-size: 400%;  
+  animation: bg-animation 30s infinite alternate; 
+
+} 
+
+@keyframes bg-animation{  
+  0%{ 
+      background-position: left;
+  } 
+
+  100%{ 
+      background-position: right;
+  }
+
+}
