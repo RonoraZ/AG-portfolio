@@ -1,3 +1,54 @@
+# React-Portfolio
+
+                 
+**Table of Contents**
+1. [License](#license)
+2. [Description](#description)
+3. [Installation](#installation) 
+4. [Usage](#usage)  
+5. [Contribution](#contribution)
+6. [Testing](#testing) 
+7. [Questions](#questions)  
+
+
+# **License** 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# **Description** 
+   Hello in this project i re-made my portfolio using react components . 
+   **Heroku link : https://ag-portfolio-1.herokuapp.com/
+   **Local host link : http://localhost:3000/
+   
+   ![](images/Screenshot%20(34).png)
+
+# **Installation** 
+  
+In order to install one can copy the repository through github once copy install .
+
+# **Usage** 
+   Click the heroku link to view the portfolio !. 
+
+# **Contribution** 
+
+N/A 
+
+# **Testing** 
+
+N/A 
+
+# **Questions** 
+
+If any questions email me at amalec.c.guzman@gmail.com 
+
+**Technology**  
+ HTML 
+ CSS 
+ JAVASCRIPT 
+ React
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
